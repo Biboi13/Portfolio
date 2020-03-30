@@ -84,7 +84,7 @@
 
 
                 <div class="title m-b-md">
-                    First Day of #100daysofCode
+                    First Day of #100daysofCodeSSSS
                 </div>
 
                 <div class="links">
