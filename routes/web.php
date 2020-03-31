@@ -15,18 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/login', function () {
-   
-   $login =  [
-      ['type' => 'Admin', 'name' => 'Oliver'],
-      ['type' => 'Guest', 'name' => 'Biboi'],
-      ['type' => 'Guest', 'name' => 'Timmy']
-      
-   ];
-   
-   
-    return view('login', ['login' => $login]);
-});
+Route::get('/login', 'PortfolioController@index');
 
+Route::get('/login/{id}', 'PortfolioController@show');
 
 
